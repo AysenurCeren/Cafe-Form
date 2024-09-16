@@ -103,12 +103,12 @@ public class Main extends JFrame {
         // Ana konteyner'a bileşenleri ekleme
         Container container = getContentPane();
         container.setLayout(new BorderLayout());
-        container.add(panel, BorderLayout.WEST);//batı
-        container.add(scrollPane, BorderLayout.CENTER);//orta yerleştirme
+        container.add(panel, BorderLayout.WEST);
+        container.add(scrollPane, BorderLayout.CENTER);
 
         setSize(600, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//pencere kapanınca uygulama kapatma
-        setLocationRelativeTo(null);//pencere ekran ortasında görüntüleme
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
 
         giris(); // Giriş metodu çağrıldı
 
@@ -125,7 +125,7 @@ public class Main extends JFrame {
         };
 
         int secenek = JOptionPane.showConfirmDialog(null, mesaj, "Giriş", JOptionPane.OK_CANCEL_OPTION);
-        // iletişim kutusu(ortala,dizi çekme,kutu başlık,ok cancel düğme işlev metot)
+
         if (secenek == JOptionPane.OK_OPTION) {
             int P_ID = Integer.parseInt(P_IDField.getText());
             char[] sifreChars = sifreField.getPassword();
@@ -274,7 +274,7 @@ public class Main extends JFrame {
         }
 
         public static void main(String[] args) {
-            SwingUtilities.invokeLater(() -> {//bileşen oluşturma ve güncelleme
+            SwingUtilities.invokeLater(() -> {
                 Main form = new Main();
                 form.setVisible(true);
             });

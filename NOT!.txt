@@ -1,0 +1,4 @@
+-jar dosyası out içinde.
+-Form giriş yetkisinden 1 örnek=> Id:4 /Şİfre:Şef432
+-Formda personel girişi doğrulandıktan sonra listeleme kutusu saklı kalıyor bunu için formu sağ tarafından büyütmeniz gereklidir.
+-Ayrıca giriş paneli açılsa dahi xammpten apache ve mysql çalışmadıkça (Veritabanı kodları eklenmiştir)sistem girişten sonra hata verip kendini kapatacaktır.

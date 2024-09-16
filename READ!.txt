@@ -1,9 +1,0 @@
-You must install the -mysql-connector-j-8.2.0 file and define it from java to your file.
--1 example of form entry authorization=> Id:4 /Password:Şef432
--After the personnel entry in the form is verified, the listing box remains hidden, for this you need to enlarge the form on the right side.
--Also, even if the login panel is opened, the system will give an error and shut down itself after logging in, unless Apache and Mysql are running from XAMP (Database codes have been added).
---------------------------------------------------
--mysql-connector-j-8.2.0 dosyasını yüklemeli ve javadan dosyanıza tanımlamanız gereklidir.
--Form giriş yetkisinden 1 örnek=> Id:4 /Şİfre:Şef432
--Formda personel girişi doğrulandıktan sonra listeleme kutusu saklı kalıyor bunu için formu sağ tarafından büyütmeniz gereklidir.
--Ayrıca giriş paneli açılsa dahi xammpten apache ve mysql çalışmadıkça (Veritabanı kodları eklenmiştir) sistem girişten sonra hata verip kendini kapatacaktır.
